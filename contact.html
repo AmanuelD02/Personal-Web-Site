@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href=".\Asset\img\graduate.png">
     <title>Amanuel</title>
 </head>
 <body>
@@ -10,6 +11,7 @@
     <hr>
     <a href="index.html" target="_blank">Home</a>
     <a href="contact.html" target="_blank" >Contact Us</a>
+    <a href="gallery.html">Gallery</a>
     <hr>
     <table cellspacing="20">
         <tr>
@@ -25,16 +27,22 @@
         </tr>
     </table>
         <!--   -->
-        <hr>
         <h3>Leave A comment Here: </h3>
         <form enctype="utf-8" action="mailto:amanueldebebe1000@gmail.com" >
         
-            <label for="fName"> First Name:</label>
-            <input type="text" name="fName" id="fName"><br><br>
-            <label for="lName">Last Name</label>
-            <input type="text" name="Last Name" id="lName"><br><br>
+            <label for="fName" required pattern="[A-Z][a-z]{1,20}" size="25"> First Name:</label>
+            <input type="text" name="fName" id="fName" required pattern="[A-Z][a-z]{1,20}"><br><br>
+            <label for="lName" ">Last Name</label>
+            <input type="text" name="Last Name" id="lName" required pattern="[A-Z][a-z]{1,20}"> <br><br>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email"><br><br>
+            <input type="email" name="email" required id="email"><br><br>
+            password:
+            <input type="password" name="password" id="" min="8"><br><br>
+            <label>Enter your phone number in the format (123)456-7890 :
+                (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+                 <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+                 <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+               </label><br><br>
             <label for="detail">Leave Your Comment Here: </label>
             <br>
             <textarea name="detail" id="detail">your comment here..</textarea><br><br>
@@ -43,14 +51,23 @@
                 <option value="Egypt">Egypt</option>
             <option value="Sudan">Sudan </option>
             </select><br><br>
+
+            <label for="price">Rate the website: </label>
+    <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
+    <output class="price-output" for="price"></output>
+    <br>
             <input type="submit">
 
-            <hr>
+            
             
             
         </form>
+   
+ <hr>
         
         <hr>  
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="398" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:344px;width:398px;}.gmap_canvas {overflow:hidden;background:none!important;height:344px;width:398px;}</style></div>
+        <hr>
         <p align ="center"> Developed By Amanuel Debebe &copy;</p>
 </body>
 </html>
