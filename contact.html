@@ -15,7 +15,7 @@
     <hr>
     <table cellspacing="20">
         <tr>
-            <td><img src=".\Asset\img\nature.jpg" alt="Nature" ></td>
+            <td><img src=".\Asset\img\profile.jpg" alt="Nature" height =  ></td>
             <td><h1> Amanuel Debebe 2020 </h1>
                 <h3>Student , Addis Ababa institue of Technology</h3>
                 <p>Amanuel ipsum dolor sit amet consectetur adipisicing elit.
@@ -28,45 +28,94 @@
     </table>
         <!--   -->
         <h3>Leave A comment Here: </h3>
-        <form enctype="utf-8" action="mailto:amanueldebebe1000@gmail.com" >
         
-            <label for="fName" required pattern="[A-Z][a-z]{1,20}" size="25"> First Name:</label>
-            <input type="text" name="fName" id="fName" required pattern="[A-Z][a-z]{1,20}"><br><br>
-            <label for="lName" ">Last Name</label>
-            <input type="text" name="Last Name" id="lName" required pattern="[A-Z][a-z]{1,20}"> <br><br>
-            <label for="email">Email</label>
-            <input type="email" name="email" required id="email"><br><br>
-            password:
-            <input type="password" name="password" id="" min="8"><br><br>
-            <label>Enter your phone number in the format (123)456-7890 :
-                (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
-                 <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
-                 <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
-               </label><br><br>
-            <label for="detail">Leave Your Comment Here: </label>
-            <br>
-            <textarea name="detail" id="detail">your comment here..</textarea><br><br>
-            <select name="country" id="">
-                <option value="Ethiopia">Ethiopia</option>
-                <option value="Egypt">Egypt</option>
-            <option value="Sudan">Sudan </option>
-            </select><br><br>
+ 
+        
+            
+            
+            
+         <table>
+             <tr >
+                 <td>           <table cellpadding ="10">
+                    <form enctype="utf-8" action="mailto:amanueldebebe1000@gmail.com" ></form>
+                    <tr>
+                        <td>   <label for="fName" required pattern="[A-Z][a-z]{1,20}" size="25"> First Name:</label>
+                        </td>
+                        <td><input type="text" name="fName" id="fName" required pattern="[A-Z][a-z]{1,20}"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lName" ">Last Name:</label></td>
+                        <td>            <input type="text" name="Last Name" id="lName" required pattern="[A-Z][a-z]{1,20}"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>            <label for="Email:">Email:</label>
+                        </td>
+                        <td>            <input type="email" name="email" required id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>password:</td>
+                        <td>            <input type="password" name="password" id="" min="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>   <label>Phone Num: (123)456-7890 :
+                            
+                           </label> </td>
+                        <td>(<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+                            <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+                            <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="detail">Leave Your Comment Here: </label></td>
+                        <td><textarea name="detail" id="detail">your comment here..</textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Country.</td>
+                        <td> <select name="country" id="">
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Egypt">Egypt</option>
+                        <option value="Sudan">Sudan </option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="rating">Rate the website: </label></td>
+                        <td><input type="range" name="rating" id="rating" min="0" max="10" step="1" value=""  onchange="show_value2(this.value)"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit"></td>
+                    </tr>
+                </form>
+                </table></td>
+                
+                 <td >
+                     <table >
+                         <tr><td >                     <div class="mapouter" align = "right"><div class="gmap_canvas"><iframe width="398" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:344px;width:398px;}.gmap_canvas {overflow:hidden;background:none!important;height:344px;width:398px;}</style></div>
+                         </td></tr>
+                     </table>
+                 </td>
+             </tr>
+         </table>
+            
+           
+            
+           
 
-            <label for="price">Rate the website: </label>
-    <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
-    <output class="price-output" for="price"></output>
-    <br>
-            <input type="submit">
+            
+    
+    
+    
+            
 
+                    
             
-            
-            
-        </form>
+        
    
- <hr>
+
         
-        <hr>  
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="398" height="344" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:344px;width:398px;}.gmap_canvas {overflow:hidden;background:none!important;height:344px;width:398px;}</style></div>
+       
         <hr>
         <p align ="center"> Developed By Amanuel Debebe &copy;</p>
 </body>
