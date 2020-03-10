@@ -1,0 +1,83 @@
+
+body{
+    background-color: skyblue;
+    
+    
+    margin: 10px;
+}
+
+header{
+       
+    background-color: rgba(119,90,90, 0.6);
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+
+
+}
+
+/* Targeting our blog */
+section{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ padding: 10px ;   
+}
+
+article{
+  font-size: 15px;  
+  text-align: justify;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 15px;
+
+}
+
+.date{
+    font-style: italic;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+nav ul li:visited{
+    background-color: rgb(230, 79, 20);
+}
+
+ nav ul li:hover{
+     background-color: lightgreen;
+     font-size: larger;
+ }
+nav ul li:active{
+    background-color: lightslategrey;
+}
+
+nav>ul>li{
+ display: inline;
+ padding: 10px 5px;
+}
+
+
+/* testing width proprety */
+
+#test
+{
+    font-size: 20px;
+
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+#container{
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 1.6%;
+}
