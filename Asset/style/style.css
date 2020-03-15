@@ -95,13 +95,31 @@ p{
 }
 
 #img_container{
-    margin-bottom: 20px;
+    margin-bottom: 2em;
+    clear: both;
 }
 
 #footer{
+   
+    margin-top: 100em;
     padding-top: 10em;
     text-align: center;
-    border-top: azure;
-    margin-top: 2rem;
+    
+    margin-top: 2em;
     clear: both;
 }
+
+#head{
+    
+    margin: 4em;
+    padding: 1em;
+    
+
+    height: fit-content;
+    
+}
+#head img{
+    float: left;
+    padding-right: 1.4em;
+}
+
