@@ -75,9 +75,33 @@ p{
     font-size: 1.2rem;
 }
 
-#container{
+
+
+#img_container figure {
     float: left;
-    height: 30%;
-    width: 30%;
-    margin: 1.6%;
+    height: 400px;
+    width: 400px;
+    margin: 2em;
+    text-align: center;
+    
+    }
+
+#img_container figure img {
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 2em;
+
+}
+
+#img_container{
+    margin-bottom: 20px;
+}
+
+#footer{
+    padding-top: 10em;
+    text-align: center;
+    border-top: azure;
+    margin-top: 2rem;
+    clear: both;
 }
