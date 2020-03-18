@@ -219,10 +219,27 @@ input[type=submit]:hover{
 #mywork-content {
   
     padding-top: 2em;
-    margin-top: 20em;
+    margin-top: 15%;
     text-align: center;
 }
 #mywork-content ul  li{
     display: inline-block;
     padding: 2em;
+}
+
+#q2-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#q2-img img{
+    height: 300px;
+    width: 300px;
+    padding:15%  5%;
+
+
+   
 }
