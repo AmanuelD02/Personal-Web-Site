@@ -97,9 +97,11 @@ p{
 #img_container{
     margin-bottom: 2em;
     clear: both;
+
+    border-bottom: 0.1em solid #03171f;
 }
 
-#footer{
+#footer {
    
     margin-top: 100em;
     padding-top: 10em;
@@ -108,12 +110,15 @@ p{
     margin-top: 2em;
     clear: both;
 }
+#footer footer{
+    padding-top: 2em;
+}
 
 #head{
     
     margin: 4em;
     padding: 1em;
-    
+    margin-bottom: 10em;
 
     height: fit-content;
     
@@ -123,3 +128,81 @@ p{
     padding-right: 1.4em;
 }
 
+#experience{
+    text-align: justify;
+    border-top: solid;
+    border-top: black;
+
+}
+
+#form {
+    width: 75%;
+    margin-top:10em;
+    
+    margin: 1%;
+    padding: 2%;
+    background-color: #bcd7db;
+    display: list-item;
+}
+
+#form #tel{
+    width: 5% ;
+    float: left;
+}
+
+input {
+    
+    margin: 10px;
+    height: 30px;
+    width: 60%;
+    box-sizing: border-box;
+    display: list-item;
+    box-sizing: content-box;
+}
+
+input[type=submit]{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #c4e0f0;
+    resize: none;
+    clear: both;
+    
+}
+
+
+#form #title{
+    font-size: 1.5em;
+    text-align: left;
+    padding-bottom: 1em;
+    font-family: fantasy;
+    color: rgb(81, 83, 83);
+}
+
+
+#form label{
+    padding-right: 30px;
+    padding-bottom: 20px;
+    
+    font-size: 1.2em;
+    
+
+}
+
+#contact-footer{
+    border-top: solid rgba(153, 45, 45, 0.7) 0.1em;
+    margin-top: 2em;
+    padding: 1em;
+}
+input[type=submit]:hover{
+    background-color:rgb(167, 204, 213);
+}
