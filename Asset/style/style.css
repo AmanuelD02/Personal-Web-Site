@@ -240,10 +240,10 @@ input[type=submit]:hover{
     width: 300px;
     padding:15%  5%;
 }
-
+/* container of all countries */
 #q3Container{
 
-    border: solid;
+
     margin: 2%;
     align-items: center;
     box-sizing: content-box;
@@ -258,6 +258,8 @@ input[type=submit]:hover{
 
     margin: 2em;
 }
+
+/* Countries */
 #q3Container #France *{
     height: 100%;
     width: 32%;
@@ -272,7 +274,7 @@ input[type=submit]:hover{
     margin: 0;
 }
 
-#q3Container #germany  *{
+#q3Container>#germany  *{
     height: 33%;
     width: 100%;
     
@@ -287,7 +289,64 @@ input[type=submit]:hover{
 }
 
 
+#q3Container #ireland *{
+    height: 100%;
+    width: 32%;
+    float: left;
+    margin: 0;
+}
 
+#q3Container #armenia  *{
+    height: 33%;
+    width: 100%;
+    
+    margin: 0;
+}
+
+#q3Container #italy *{
+    height: 100%;
+    width: 32%;
+    float: left;
+    margin: 0;
+}
+
+#q3Container #romania *{
+    height: 100%;
+    width: 32%;
+    float: left;
+    margin: 0;
+}
+#q3Container #netherland  *{
+    height: 33%;
+    width: 100%;
+    
+    margin: 0;
+}
+#q3Container #ossetia *{
+    height: 33%;
+    width: 100%;
+    
+    margin: 0;
+}
+
+#q3Container #luxemberg *{
+    height: 33%;
+    width: 100%;
+    
+    margin: 0;
+}
+#q3Container #estonia *{
+    height: 33%;
+    width: 100%;
+    
+    margin: 0;
+}
+
+
+
+
+
+/* Colors */
 #blue{
     background-color: blue;
 }
@@ -303,4 +362,12 @@ background-color: white;
 #yellow{
     background-color: yellow;
 }
-
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#skyblue{
+    background-color: rgb(24, 155, 207);
+}
