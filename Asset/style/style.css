@@ -17,6 +17,7 @@ header{
 
 }
 
+
 /* Targeting our blog */
 section{
     margin-top: 30px;
@@ -63,8 +64,21 @@ nav>ul>li{
  padding: 10px 5px;
 }
 
+section article p a{
+    text-decoration: none;
+    
+}
 
 /* testing width proprety */
+#index-hobbies{
+    clear: both;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    border-bottom: solid black 1px;
+}
+#index-hobbies ul{
+    font-size: 1.1em;
+}
 
 #test
 {
@@ -81,8 +95,8 @@ p{
 #img_container figure {
     float: left;
     height: 400px;
-    width: 400px;
-    margin: 2em;
+    width: 30%;
+    margin: 1.6%;
     text-align: center;
     
     }
@@ -91,8 +105,14 @@ p{
     float: left;
     height: 100%;
     width: 100%;
-    margin: 2em;
+    margin: 1.6%
 
+}
+
+#index-topSkill{
+    margin-bottom: 3%;
+    margin-left: 5%;
+    border-bottom: solid black 1px;
 }
 
 #img_container{
@@ -100,6 +120,21 @@ p{
     clear: both;
 
     border-bottom: 0.1em solid #03171f;
+}
+
+.mapouter{
+   
+    margin: 2%;
+
+   
+ 
+}
+#big{
+   
+    display: flex;
+}
+#big div{
+    flex: 1;
 }
 
 #footer {
@@ -133,14 +168,16 @@ p{
     text-align: justify;
     border-top: solid;
     border-top: black;
+    margin-left: 5%;
+    margin-bottom: 3%;
 
 }
 
 #form {
-    width: 75%;
-    margin-top:10em;
-    
-    margin: 1%;
+    width: 48%;
+    margin-top:2%;
+   margin-left: 3%;
+    margin-right: 3%;
     padding: 2%;
     background-color: #bcd7db;
     display: list-item;
@@ -160,7 +197,10 @@ input {
     display: list-item;
     box-sizing: content-box;
 }
+input:focus{
+    border-color: green;
 
+}
 input[type=submit]{
     width: 20%;
     height: 30px;
@@ -198,14 +238,19 @@ textarea {
     
 
 }
+#aman {
+    text-transform: uppercase;
+}
 
 #contact-footer{
+    clear: both;
     border-top: solid rgba(153, 45, 45, 0.7) 0.1em;
     margin-top: 2em;
     padding: 1em;
 }
 input[type=submit]:hover{
     background-color:rgb(167, 204, 213);
+    color: white;
 }
 
 /* mywork.html */
