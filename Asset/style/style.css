@@ -151,6 +151,10 @@ p{
 #footer footer{
     padding-top: 2em;
 }
+#footer img{
+    height: 25px;
+    width: 25px;
+}
 
 #head{
     
