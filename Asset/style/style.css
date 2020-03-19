@@ -50,10 +50,12 @@ nav ul li a{
 nav ul li:visited{
     background-color: rgb(230, 79, 20);
 }
+@media (hover: hover) {
+    nav ul li:hover{
+        background-color: lightgreen;
+        font-size: larger;
+}
 
- nav ul li:hover{
-     background-color: lightgreen;
-     font-size: larger;
  }
 nav ul li:active{
     background-color: lightslategrey;
@@ -273,17 +275,27 @@ input[type=submit]:hover{
 }
 
 #q2-img{
-    height: 100%;
-    display: flex;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 600px;
+    height: 600px;
+   
+ 
     align-items: center;
-    justify-content: center;
+    
+    padding: 0;
+    
     
 
 }
-#q2-img img{
-    height: 300px;
-    width: 300px;
-    padding:15%  5%;
+#q2-img *{
+
+    margin: 0;
+    
+    height: 30%;
+    width: 30%;
+    float: left;
+    
 }
 /* container of all countries */
 #q3Container{
