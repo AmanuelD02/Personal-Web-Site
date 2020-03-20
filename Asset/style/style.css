@@ -54,6 +54,8 @@ nav ul li:visited{
     nav ul li:hover{
         background-color: lightgreen;
         font-size: larger;
+        transition: 1s;
+        border-radius: 5%;
 }
 
  }
@@ -190,7 +192,8 @@ p{
 }
 
 #form #tel{
-    width: 5% ;
+    text-align: center;
+    width: 6% ;
     float: left;
 }
 
@@ -227,7 +230,7 @@ textarea {
 }
 
 
-#form #title{
+#form #title h1{
     font-size: 1.5em;
     text-align: left;
     padding-bottom: 1em;
@@ -267,6 +270,7 @@ input[type=submit]:hover{
     font-stretch: expanded;
 
 }
+
 #mywork-content {
   
     padding-top: 2em;
@@ -276,6 +280,15 @@ input[type=submit]:hover{
 #mywork-content ul  li{
     display: inline-block;
     padding: 2em;
+}
+#mywork-content ul  li:hover{
+    display: inline-block;
+    padding: 1.1em;
+    background-color: steelblue;
+    font-size: 1.1em;
+    color: skyblue;
+    transition: 1s;
+    border-radius: 15%;
 }
 
 #q2-img{
